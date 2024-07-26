@@ -32,6 +32,7 @@ AWS affords resources that allows for observability to be realised at the VPC le
 * Amazon Route 53 Resolver Query Logs.<br> 
 
 
+
 #### VPC Flow Logs:
 
 ##### What it is: 
