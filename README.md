@@ -10,11 +10,16 @@ through the collection and analysis of data. This capability is now a crucial pa
 In AWS cloud computing, before client workloads are exposed to the internet, a trusted boundary called a 
 Virtual Private Cloud (VPC) is required. Amazon VPC provides clients with control over their 
 virtual networking environment, including resource placement, connectivity, and security. 
-Observability in AWS begins with the VPC.
+Observability in AWS begins with the VPC, and ends with the resources that a softre workload requires to function.
 
 Network traffic within a trusted boundary, such as a Virtual Private Cloud (VPC), is called East-West traffic. 
-Outbound workload traffic is referred to as Egress flow, while inbound workload traffic is known as Ingress flow. 
-Enabling observability for an AWS VPC requires collecting actionable data from Ingress, Egress, and East-West traffic.
+With outbound workload traffic is referred to as Egress flow, while inbound workload traffic is known as Ingress flow. 
+Enabling observability for an AWS VPC requires collecting actionable data from; 
+
+* Ingress.<br> 
+* Egress.<br>
+* East-West traffic.<br>
+
 
 #### VPC Flow Logs:
 
