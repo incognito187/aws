@@ -33,7 +33,7 @@ AWS affords resources that allows for observability to be realised at the VPC le
 
 
 
-#### VPC Flow Logs:
+### VPC Flow Logs:
 
 ##### What it is: 
 VPC Flow Logs capture information about the IP traffic going to and from network interfaces in your VPC.
@@ -44,7 +44,7 @@ Diagnose connectivity issues, monitor network traffic, and troubleshoot security
 ##### Metrics: 
 Source/destination IP, source/destination port, protocol, action (accept/reject), and log status.
 
-#### AWS CloudTrail:
+### AWS CloudTrail:
 
 ##### What it is: 
 CloudTrail records API calls made within your AWS account, including those to VPC.
@@ -53,7 +53,7 @@ Track changes to VPC configurations, audit access and actions, and ensure compli
 ##### Metrics: 
 Details of API calls, including the caller identity, time, source IP, request parameters, and response elements.
 
-#### Amazon CloudWatch:
+### Amazon CloudWatch:
 
 ##### What it is: 
 CloudWatch collects monitoring and operational data in the form of logs, metrics, and events.
@@ -62,7 +62,7 @@ Monitor VPC components, set alarms, and visualize logs and metrics.
 ##### Metrics: 
 Network-related metrics such as BytesIn/BytesOut, PacketsIn/PacketsOut for NAT Gateways, Transit Gateway, and other network components.
 
-#### AWS Config:
+### AWS Config:
 
 ##### What it is: 
 AWS Config tracks the configuration changes of your AWS resources.
@@ -71,7 +71,7 @@ Monitor configuration changes, maintain resource configurations, and audit resou
 ##### Metrics: 
 Configuration history and compliance status of VPC resources like subnets, route tables, and security groups.
 
-#### AWS Trusted Advisor:
+### AWS Trusted Advisor:
 
 ##### What it is: 
 Trusted Advisor provides real-time guidance to help you provision your resources following AWS best practices.
@@ -80,7 +80,7 @@ Optimize VPC security, fault tolerance, and performance.
 ##### Metrics: 
 Recommendations on security group settings, exposed ports, and redundant routes.
 
-#### AWS Network Firewall Logging:
+### AWS Network Firewall Logging:
 
 ##### What it is: 
 Logs traffic that passes through AWS Network Firewall.
@@ -89,7 +89,7 @@ Monitor and troubleshoot firewall rules, gain insights into allowed and blocked 
 ##### Metrics: 
 Logs for alert, flow, and stateful rule groups indicating allowed/denied traffic and matches on rules.
 
-#### AWS Elastic Load Balancer (ELB) Access Logs:
+### AWS Elastic Load Balancer (ELB) Access Logs:
 
 ##### What it is: 
 
@@ -99,7 +99,7 @@ Analyze traffic patterns troubleshoot issues, and audit requests.
 ##### Metrics: 
 Details like request timeclient IP, request path, and server responses.
 
-##### Amazon Route 53 Resolver Query Logs:
+### Amazon Route 53 Resolver Query Logs:
 
 ##### What it is: 
 Log DNS queries that Route 53 Resolver receives.
