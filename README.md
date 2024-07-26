@@ -16,20 +16,20 @@ Network traffic within a trusted boundary, such as a Virtual Private Cloud (VPC)
 With outbound workload traffic exposed to the internet is referred to as Egress flow, while inbound workload traffic 
 into the VPC and the workload are known as Ingress flow. Enabling observability for an AWS VPC requires collecting actionable data from; 
 
-* ## Ingress.<br> 
-* ## Egress.<br>
-* ## East-West traffic.<br>
+* Ingress.<br> 
+* Egress.<br>
+* East-West traffic.<br>
 
 AWS affords resources that allows for observability to be realised at the VPC level.
 
-* ## VPC Flow Logs.<br> 
-* ## AWS CloudTrail.<br>
-* ## Amazon CloudWatch.<br> 
-* ## AWS Config.<br> 
-* ## AWS Trusted Advisor.<br> 
-* ## AWS Network Firewall Logging.<br> 
-* ## AWS Elastic Load Balancer (ELB) Access Logs.<br> 
-* ## Amazon Route 53 Resolver Query Logs.<br> 
+* VPC Flow Logs.<br> 
+* AWS CloudTrail.<br> 
+* Amazon CloudWatch.<br> 
+* AWS Config.<br> 
+* AWS Trusted Advisor.<br> 
+* AWS Network Firewall Logging.<br> 
+* AWS Elastic Load Balancer (ELB) Access Logs.<br> 
+* Amazon Route 53 Resolver Query Logs.<br> 
 
 
 
