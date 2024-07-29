@@ -7,9 +7,9 @@ the concept of observability has become essential. Observability refers to the a
 into the internal states of distributed systems and microservices, as well as the communication between their components, 
 through the collection and analysis of data. This capability is now a crucial part of the daily practice of software engineers.
 
-In AWS cloud computing, before client workloads are exposed to the internet, a trusted network boundary called a 
-Virtual Private Cloud (VPC) is required. Amazon VPC provides AWS clients with control over their 
-virtual networking environment, including resource placement, connectivity, and security. 
+In AWS cloud computing, before client workloads are exposed to the internet, a trusted network boundary framework called a 
+Virtual Private Cloud (VPC) is required. Amazon VPC affords AWS users control over their 
+virtual networking framework environment, and including resource placement, connectivity, and security. 
 Observability in AWS begins with the VPC, and ends with the resources that a software workload requires to function.
 
 Network traffic within a trusted boundary, such as a Virtual Private Cloud (VPC), is called East-West traffic. 
